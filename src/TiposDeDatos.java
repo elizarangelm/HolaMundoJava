@@ -20,5 +20,14 @@ public class TiposDeDatos {
           
           var miVariableCadena2 = "Nueva Cadena";
           System.out.println("miVariableCadena2 = " + miVariableCadena2);
+          
+          //Valores permitdos en los nombres de las variable
+          var miVariable = 1;
+          var _miVariable = 2;
+          var $miVariable = 3;
+          
+      
+          // àmiVariable = 1; no se recomienda usar acentos
+          // #miVariable = 1; no se puede usar caracteres especiales
       }   
 }
